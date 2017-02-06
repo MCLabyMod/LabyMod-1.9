@@ -1,0 +1,1 @@
+class aot$1 {}

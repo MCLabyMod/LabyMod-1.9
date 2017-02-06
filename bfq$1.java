@@ -1,0 +1,1 @@
+class bfq$1 {}

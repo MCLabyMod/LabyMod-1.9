@@ -1,0 +1,1 @@
+class anx$1 {}

@@ -1,0 +1,1 @@
+class boo$1 {}

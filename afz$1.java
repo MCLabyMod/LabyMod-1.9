@@ -1,0 +1,1 @@
+class afz$1 {}

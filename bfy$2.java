@@ -1,0 +1,1 @@
+class bfy$2 {}

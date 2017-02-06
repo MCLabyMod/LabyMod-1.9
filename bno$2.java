@@ -1,0 +1,1 @@
+class bno$2 {}

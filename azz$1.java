@@ -1,0 +1,1 @@
+class azz$1 {}

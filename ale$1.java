@@ -1,0 +1,1 @@
+class ale$1 {}

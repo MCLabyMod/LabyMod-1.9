@@ -1,0 +1,1 @@
+class bzg$1 {}

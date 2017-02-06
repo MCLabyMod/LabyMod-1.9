@@ -1,0 +1,1 @@
+class akq$2 {}

@@ -1,0 +1,1 @@
+class bks$3 {}

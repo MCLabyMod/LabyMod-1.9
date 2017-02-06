@@ -1,0 +1,1 @@
+class bsd$1 {}

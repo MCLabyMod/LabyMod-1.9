@@ -1,0 +1,1 @@
+class apj$1 {}

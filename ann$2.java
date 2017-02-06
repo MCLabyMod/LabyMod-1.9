@@ -1,0 +1,1 @@
+class ann$2 {}

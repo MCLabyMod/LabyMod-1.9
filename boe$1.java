@@ -1,0 +1,1 @@
+class boe$1 {}

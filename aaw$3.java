@@ -1,0 +1,1 @@
+class aaw$3 {}

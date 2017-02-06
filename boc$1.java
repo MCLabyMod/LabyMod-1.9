@@ -1,0 +1,1 @@
+class boc$1 {}

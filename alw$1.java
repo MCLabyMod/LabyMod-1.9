@@ -1,0 +1,1 @@
+class alw$1 {}

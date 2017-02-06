@@ -1,0 +1,1 @@
+class bna$1 {}

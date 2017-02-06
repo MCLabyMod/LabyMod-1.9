@@ -1,0 +1,1 @@
+class bqi$1 {}

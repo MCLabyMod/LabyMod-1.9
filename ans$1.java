@@ -1,0 +1,1 @@
+class ans$1 {}

@@ -1,0 +1,1 @@
+class ali$1 {}

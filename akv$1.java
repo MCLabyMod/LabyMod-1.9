@@ -1,0 +1,1 @@
+class akv$1 {}

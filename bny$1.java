@@ -1,0 +1,1 @@
+class bny$1 {}

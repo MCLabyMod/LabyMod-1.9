@@ -1,0 +1,1 @@
+class aoh$1 {}

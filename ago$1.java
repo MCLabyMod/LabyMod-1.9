@@ -1,0 +1,1 @@
+class ago$1 {}

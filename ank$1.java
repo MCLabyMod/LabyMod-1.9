@@ -1,0 +1,1 @@
+class ank$1 {}

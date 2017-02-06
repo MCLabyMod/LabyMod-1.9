@@ -1,0 +1,1 @@
+class afl$1 {}

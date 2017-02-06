@@ -1,0 +1,1 @@
+class als$1 {}

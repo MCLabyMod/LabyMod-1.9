@@ -1,0 +1,1 @@
+class amr$1 {}

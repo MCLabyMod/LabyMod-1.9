@@ -1,0 +1,1 @@
+class ant$1 {}

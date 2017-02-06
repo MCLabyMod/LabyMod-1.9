@@ -1,0 +1,1 @@
+class awo$2 {}

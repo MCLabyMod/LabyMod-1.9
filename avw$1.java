@@ -1,0 +1,1 @@
+class avw$1 {}

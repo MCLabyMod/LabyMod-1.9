@@ -1,0 +1,1 @@
+class bos$1 {}

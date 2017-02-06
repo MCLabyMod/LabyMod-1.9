@@ -1,0 +1,1 @@
+class bme$1 {}

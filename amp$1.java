@@ -1,0 +1,1 @@
+class amp$1 {}

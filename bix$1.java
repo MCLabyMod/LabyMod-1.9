@@ -1,0 +1,1 @@
+class bix$1 {}

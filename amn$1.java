@@ -1,0 +1,1 @@
+class amn$1 {}

@@ -1,0 +1,1 @@
+class awi$1 {}

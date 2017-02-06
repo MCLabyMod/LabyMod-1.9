@@ -1,0 +1,1 @@
+class bpu$1 {}

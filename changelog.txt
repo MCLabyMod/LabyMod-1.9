@@ -1,0 +1,157 @@
+OptiFine 1.8.9_HD_U_H4
+ - fixed unicode font shadow
+ - updated translations (de_DE, sv_SE, zh_TW) 
+ - removed shaders hand depth 4x and 8x values - broken and not needed
+ - disabled ForgeHooksClient.renderFirstPersonHand() when shaders are active, not compatible
+ - fixed chunk updates with shaders or with slow GPU
+ - added support for preview versions
+ - fixed glass panes and stained glass panes orientation
+ - fixed Trees Smart when running with Forge
+ - fixed entity updates - MoCreature insects
+ - compatible with Forge #1744
+ (04.03.2016)
+ 
+OptiFine 1.8.9_HD_U_H3
+ - fixed Furniture mod crash with Shaders
+ - added SE and CN translations
+ - removed shaders option Cloud Shadows, not working and disabled in 1.8
+ - fixed dark fog/clouds when around water or in shadows 
+ - fixed custom bow textures (bow_standby)
+ - added option Trees Smart - renders fancy leaves with face culling
+ - added face culling for leaf models, significant FPS increase for fast leaves
+ - fix for Thaumcraft models when changing Shaders in game
+ - added suport for shader uniform shadowcolor2 and shadowcolor3  
+ - compatible with Forge #1744
+ (22.01.2016)
+
+OptiFine 1.8.9_HD_U_H2
+ - added option "-Dshaders.debug.save=true", saves active shaders in "shaderpacks/debug"
+ - fixed Forge custom armor rendering
+ - fixed shader initialization in nether/end
+ - fixed Forge blocks layer reordering (BetterFoliage grass and BuildCraft pipes)
+ (14.01.2016)
+
+OptiFine 1.8.9_HD_U_H1
+ - added shader profiles
+ - added resources - /assets/minecraft/optifine/lang/en_US.lang
+ - added shader resources
+ - fixed shader shadow flickering (like it was in G6), performance may suffer a bit
+ - fixed Random Mobs in multiplayer worlds
+ - added support for shader variables
+ - added configurable shaders options screen
+ - fixed scaling of small textures when mipmaps are off
+ - fixed parsing of block colormaps with block variants
+ - fixed leash rendering with shaders to use program basic
+ - fixed logo "mojang.png" to be loaded from resource packs
+ - fixed parsing of invalid block states - for custom colors and connected textures
+ - fixed custom redstone colors depending on other custom colors
+ - right click on a shader option resets it to default
+ - added parsing of predefined shader const options (bool, float and int)
+ - fixed entity shadows with Forge (multi-pass entity rendering)
+ - fixed double plants to use same custom color for upper and lower part
+ - fixed hand held translucent items with shaders 
+ - added shaders per world dimension - "/shaders/world-1" for nether
+ - the dimension shaders are scanned for shader options
+ - removed chat message when loading shaders
+ - updated shader profiles to allow program deactivation
+ - added support for "#include" in shaders
+ - fixed Forge custom models not visible in GUI
+ - fixed black screen with shaders when starting in the nether / end
+ - added hotkey F3+R to reload current shaders (ninja update)
+ - compatible with Forge #1688
+ (08.01.2016)
+ 
+OptiFine 1.8.9_HD_U_G9
+ - fixed grid colormaps
+ - fixed compass and clock to work when animations are off
+ - fixed animated textures with AF
+ - fixed useGlint
+ - added shader options
+ - the options are parsed from the shader files, searching for "#define", "#ifdef" and "#ifndef"
+ - commented defines are with default state OFF
+ - ambiguous options (both ON and OFF state found) are disabled and can not be changed
+ - option names are global for all shader files in a shader pack
+ - one option can be present in several shader files and it will be switched simultaneously in all of them
+ - only ON/OFF options are supported for now, variables may be added later with range syntax
+ - comments on the same line after the "#define" are shown as tooltips
+ - added support for "shaders.properties": http://pastebin.com/g2E4NqPM
+ - extended "mcpatcher/color.properties", added support for "clouds=off"
+ - the shader option comments are split by sentences in the tooltip
+ - fixed http pipelining to redirect to relative url 
+ (23.12.2015)
+ 
+OptiFine 1.8.9_HD_U_G7
+ - updated to Minecraft 1.8.9 
+ (09.12.2015)
+
+OptiFine 1.8.8_HD_U_G7
+ - optimized shader shadows generation
+ - fixed custom items crash
+ - compatible with Forge #1591
+ (04.12.2015)
+ 
+OptiFine 1.8.8_HD_U_G6
+ - added support for Custom Item Textures: custom items, custom enchantments and custom armor
+ - updated Connected Textures to parse block variants
+ - added custom colors: spawn eggs, dog collars, sheep, potion, map, text, boss, xporb 
+ - added support for grid palettes 
+ - added support for ligtmaps for custom mod dimensions
+ - fixed shader shadow flickering and incorrect shadow rendering (minimal FPS drop is possible for shader packs with shadows)
+ - added blend method overlay for custom sky
+ - fixed overlapping transitions for custom sky
+ - many other bugfixes
+ - compatible with Forge #1591
+ (01.12.2015)
+ 
+OptiFine 1.8.8_HD_U_F5
+ - fixed compass and clock animations when AA/AF is enabled
+ (28.10.2015)
+
+OptiFine 1.8.8_HD_U_F4
+ - fixed rendering of lit particles (exploding TNT)
+ - optimized remote resource loading with http pipelining
+ - fixed shaders to use correct block light levels (option Classic Lighting)
+ - updated shader options
+ (13.10.2015)
+
+OptiFine 1.8.8_HD_U_F3
+ - fixed rendering of custom unicode fonts
+ - unicode character widths are reloaded with the resource pack
+ - fixed profiler overflow with shaders active
+ - reset video settings also resets shaders and FXAA
+ - fixed connected textures to check for server resource pack
+ (02.09.2015)
+
+OptiFine 1.8.8_HD_U_F2
+ - integrated support for shaders, based on the ShadersMod by Karyonix
+ - the shader rendering features are fully disabled when no shader is active, no FPS penalty 
+ - the shaders are not compatible with classic Antialiasing, Anisotropic Filtering and Fast Render 
+ - added post-processing antialasing shader, based on modified FXAA
+ - disabled post-processing shaders (Secret Settings) when classic antialiasing is enabled, not compatible
+ - fixed inventory rendering glitch when wearing enchanted armor and shaders are active
+ - fixed handheld item rendering artifacts when classic antialiasing is enabled
+ - fixed GUI rendering of enchanted items when classic antialiasing is enabled 
+ - fixed GUI rendering of enchanted items with Fast graphics and post-processing shaders
+ - added FXAA 4x
+ (29.08.2015)
+
+OptiFine 1.8.8_HD_U_E2
+ - fixed crash when Antialising is enabled
+ (18.08.2015)
+ 
+OptiFine 1.8.8_HD_U_E1
+ - updated to Minecraft 1.8.8
+ (01.08.2015)
+
+OptiFine 1.8.7_HD_U_D8
+ - fixed version check
+ (24.07.2015)
+ 
+OptiFine 1.8.7_HD_U_D6
+ - fixed red screen tinting
+ - fixed invisible mobs
+ (30.06.2015)
+ 
+OptiFine 1.8.7_HD_U_D5
+ - updated to Minecraft 1.8.7
+ (24.06.2015)

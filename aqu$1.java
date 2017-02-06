@@ -1,0 +1,1 @@
+class aqu$1 {}

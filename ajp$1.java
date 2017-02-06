@@ -1,0 +1,1 @@
+class ajp$1 {}

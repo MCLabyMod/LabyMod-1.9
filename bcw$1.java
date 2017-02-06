@@ -1,0 +1,1 @@
+class bcw$1 {}

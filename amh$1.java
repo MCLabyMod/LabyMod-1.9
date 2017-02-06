@@ -1,0 +1,1 @@
+class amh$1 {}

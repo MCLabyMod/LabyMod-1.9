@@ -1,0 +1,1 @@
+class avy$1 {}

@@ -1,0 +1,1 @@
+class ano$1 {}

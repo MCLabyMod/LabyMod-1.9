@@ -1,0 +1,1 @@
+class ana$2 {}

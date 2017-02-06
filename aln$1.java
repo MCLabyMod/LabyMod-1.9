@@ -1,0 +1,1 @@
+class aln$1 {}

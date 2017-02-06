@@ -1,0 +1,1 @@
+class bkv$2 {}

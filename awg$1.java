@@ -1,0 +1,1 @@
+class awg$1 {}

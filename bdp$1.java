@@ -1,0 +1,1 @@
+class bdp$1 {}

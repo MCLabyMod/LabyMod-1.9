@@ -1,0 +1,1 @@
+class amk$1 {}

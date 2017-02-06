@@ -1,0 +1,1 @@
+class bok$1 {}

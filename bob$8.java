@@ -1,0 +1,1 @@
+class bob$8 {}

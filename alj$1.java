@@ -1,0 +1,1 @@
+class alj$1 {}

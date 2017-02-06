@@ -1,0 +1,1 @@
+class aok$2 {}

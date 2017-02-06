@@ -1,0 +1,1 @@
+class aoe$1 {}

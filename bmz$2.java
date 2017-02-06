@@ -1,0 +1,1 @@
+class bmz$2 {}

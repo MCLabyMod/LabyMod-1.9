@@ -1,0 +1,1 @@
+class bfd$1 {}

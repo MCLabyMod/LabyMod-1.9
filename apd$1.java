@@ -1,0 +1,1 @@
+class apd$1 {}

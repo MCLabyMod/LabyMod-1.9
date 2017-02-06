@@ -1,0 +1,1 @@
+class apl$1 {}

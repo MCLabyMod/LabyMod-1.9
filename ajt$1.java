@@ -1,0 +1,1 @@
+class ajt$1 {}
